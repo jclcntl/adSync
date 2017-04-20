@@ -12,6 +12,3 @@ This repo is supposed to be installed and then work automatically. To install, r
 - ldapServer
 
 From there it creates a cronjob, that runs every hour and creates the configuration file that the python script reads during execution.
-
-## Contact
-We have written several Confluence pages about Nagios; check out [this page](http://egconfluence.dtveng.net/display/DFWQL/Nagios) and it's child pages. If you still have any questions about Nagios or anything in this repo feel free to contact Nick Gibson (ng560p@att.com), Jon De Leon (wd195u@att.com), or Pascal Schlumpf (ps469x@att.com). If you have questions about the sync script contact Pascal.
