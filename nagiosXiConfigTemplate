@@ -1,0 +1,19 @@
+[DEFAULT]
+apikey = {{ apikey }}
+host = {{ host }}
+adminFilter = (&({{ adminFilter }}))
+userFilter = (&({{ userFilter }}))
+baseDn = {{ baseDn }}
+ldapUser = CN=tmp.auto.cicd,OU=Temporary,OU=BIAS Accounts,{{ DC }}
+ldapPass = PewPewPew
+postPath1 = update=1&nsp=
+postPath2 = &users=1&user_id%5B%5D=&username=
+postPath3 = &password1=asdf&password2=asdf&forcepasswordchange=on&sendemail=on&name=
+postPath4 = &email=
+postPath5 = &add_contact=on&enable_notifications=on&enabled=on&language=en_US&defaultDateFormat=1&defaultNumberFormat=2&auth_type=ad&ad_server=
+postPath6 = &ad_username=
+postPathAdmin = &dn=&level=255&updateButton=Add+User
+postPathUser = &dn=&level=1&updateButton=Add+User
+ldapServer = {{ ldapServer }}
+nagiosUser = nagiosadmin
+nagiosPass = YWRtaW4=
